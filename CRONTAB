@@ -1,0 +1,6 @@
+0 11 1 * * root asterisk -rx "console dial 1@aviso"
+0 13 1 * * root sh /etc/event/sinc.sh
+1 13 1 * * root sh /etc/event/sinc1/sinc.sh
+2 13 1 * * root sh /etc/event/arquivo/para.sh
+0 14 1 * * root sh /etc/event/arquivo/del.sh
+* 15 1 * * root sh /etc/event/rotina.sh
